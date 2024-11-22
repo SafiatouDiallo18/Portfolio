@@ -1,0 +1,55 @@
+header {
+  width: 100;
+  padding: 60px;
+  -o-object-position: bottom right;
+     object-position: bottom right;
+  justify-content: center;
+}
+header h2 {
+  color: #0dcaf0;
+  height: 50px;
+}
+
+body {
+  background-color: darkslategrey;
+}
+
+.photo img {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  border: 1px none rgb(246, 242, 242);
+  float: right;
+  margin-left: 80px;
+}
+
+.photo p {
+  text-align: justify;
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+.photo h3 {
+  margin-top: 150px;
+  color: aliceblue;
+}
+
+.number {
+  text-decoration: overline;
+  text-align: end;
+}
+
+.list {
+  text-align: justify;
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+.gaols {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  border: 1px none rgb(246, 242, 242);
+  float: right;
+  margin-left: 80px;
+}/*# sourceMappingURL=style.css.map */

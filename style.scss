@@ -1,0 +1,64 @@
+$bgColor: #0dcaf0;
+$borderRadius: 20px radius black;
+
+header {
+    width: 100;
+    padding: 60px;
+    object-position: bottom right;
+    justify-content: center;
+
+    h2 {
+        color: $bgColor;
+        height: 50px;
+    }
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+@mixin photo {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    border: 1px none rgb(246, 242, 242);
+    float: right;
+    margin-left: 80px;
+}
+
+.photo img {
+    @include photo
+}
+
+$textAllign: justify;
+$marginTop: 150px;
+
+.photo p {
+    text-align: $textAllign;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.photo h3 {
+    margin-top: $marginTop;
+    color: aliceblue;
+}
+
+@mixin footer {
+    text-decoration: overline;
+    text-align: end;
+}
+
+.number {
+    @include footer
+}
+
+.list {
+    text-align: $textAllign;
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.gaols {
+    @include photo
+}
